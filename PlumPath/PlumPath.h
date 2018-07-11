@@ -6,24 +6,18 @@
 * @file		PlumPath.h
 * @brief	This Program is PlumPath DLL Project.
 * @author	Alopex/Helium
-* @version	v1.01a
+* @version	v1.02a
 * @date		2018-01-18	v1.00a	alopex	Create Project.
 * @date		2018-07-10	v1.01a	alopex	Add Function.
+* @date		2018-07-11	v1.02a	alopex	Add PlumCommon.
 */
 #pragma once
 
 #ifndef __PLUMPATH_H_
 #define __PLUMPATH_H_
 
-//Include Windows Header File
-#include <Windows.h>
-
-//Include C/C++ Run Header File
-#include <stdio.h>
-#include <stdlib.h>
-
-//Include ATL Header File
-#include <atlconv.h>
+//Include Plum Common Header File
+#include "PlumCommon.h"
 
 //Macro Definition
 #ifdef	PLUMPATH_EXPORTS
